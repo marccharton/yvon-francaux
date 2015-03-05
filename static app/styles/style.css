@@ -1,4 +1,4 @@
-* {margin: 0;padding: 0;box-sizing:border-box;}
+* {margin: 0;padding: 0;}
 
 body {
 	font-family: helvetica;
@@ -7,40 +7,90 @@ body {
 .l-header {
 	height: 150px;
 	line-height: 100px;
-	background: #474747;
+	background: #303040;
 	color: #EEE;
 	text-align: center;
 }
 
 .l-header .title-bloc {
-	line-height:normal;
-	vertical-align:middle;
-	display:inline-block;
+	line-height: normal;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 
 .l-menu {
-	background: #474747;
+	background: #303040;
 	text-align: center;
 	height: 50px;
 	line-height: 50px;
+	border-bottom : 5px solid rgba(150,150,150,0.5);
 }
 
-.l-menu ul {
+.l-nav {
 	list-style-type: none;
 	list-style: none;
 	height: 50px;
 	text-align: center;
+	margin: 0 auto;
+	position : relative;
 }
 
-.l-menu ul li {
+.l-nav .nav-item {
 	float : left;
-	width : 100px;
-	background: #404040;
+	padding : 0 20px;
+	background: #303040;
 	height: 100%;
 	text-align: center;
 	display: inline-block;
+	color: #EEE;
 }
+
+.l-nav .nav-item a {
+	text-decoration: none;
+	color: #EEE;
+}
+
+.l-nav .nav-item a:hover {
+	text-decoration: underline;
+}
+
+.l-nav::before {
+	content:'';
+	border-left: 66.66667px solid transparent;
+	border-right: 66.66667px solid transparent;
+	border-top: 50px solid rgba(150,150,150,0.5);
+	width: 0;
+	height: 0;
+
+	display: block;
+	
+	display: block;
+	position: absolute;
+	bottom: -55px;
+	left: 50%;
+	margin-left: -66px;
+	z-index: 1;
+}
+
+.l-nav::after {
+	content:'';
+	border-left: 66.66667px solid transparent;
+	border-right: 66.66667px solid transparent;
+	border-top: 50px solid #303040;
+	width: 0;
+	height: 0;
+
+	display: block;
+	
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	left: 50%;
+	margin-left: -66px;
+	z-index: 2;
+}
+
 
 .l-container {
 	width: 900px;
@@ -54,12 +104,12 @@ body {
 }
 
 .line .gallery-image {
-	background: #474756 url("./031.JPG") no-repeat; ;
+	background: #474756 url("/031.JPG") no-repeat; ;
 	width: 100%;
 	height: 300px;
 }
 
-.line .gallery-image:hover {
+.line .gallery-image: over {
 	background: #505056; ;
 }
 
@@ -72,7 +122,9 @@ body {
 
 
 
-@media all and (max-width:900px) {
+
+
+@media all and (max-width: 900px) {
 	.l-container {
 		width: 100%;
 	}	
