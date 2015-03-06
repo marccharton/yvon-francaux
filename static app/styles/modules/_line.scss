@@ -1,0 +1,19 @@
+.line {
+	width: 100%;
+	height: 300px;
+}
+
+.line .gallery-image {
+	background: #474756 url("/031.JPG") no-repeat; ;
+	width: 100%;
+	height: 300px;
+}
+
+.line .gallery-image:hover {
+	background: #505056; ;
+}
+
+.line .gallery-image img {
+	width: 100%;
+	height: 500px;
+}
