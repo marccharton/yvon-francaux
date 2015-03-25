@@ -1,2 +1,4 @@
-*.psd
 .sass-cache/
+*.psd
+*.sublime-project
+*.sublime-workspace
