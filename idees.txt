@@ -1,7 +1,7 @@
-# Reseaux Sociaux
+# Idees
 
-mise en place facebook, tweeter, ... ??  
-
+* mise en place facebook, tweeter, ... ??  
+* mise en place de flux rss pour les oeuvres et expositions.
 
 # Nom de domaine
 
