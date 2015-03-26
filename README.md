@@ -2,6 +2,7 @@
 
 * mise en place facebook, tweeter, ... ??  
 * mise en place de flux rss pour les oeuvres et expositions.
+* [editer les keyframes de l'animation du menu pour faire plus propre](http://www.alsacreations.com/tuto/lire/1299-timing-des-animations-et-des-transitions-en-css3.html)
 
 # Nom de domaine
 
