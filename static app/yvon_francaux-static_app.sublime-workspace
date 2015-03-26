@@ -31,27 +31,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1137,
-				"line_ending": "Unix"
+				"buffer_size": 1100,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n\n.l-header {\n	height: 150px;\n	line-height: 100px;\n	background: #303040;\n	color: #EEE;\n	text-align: center;\n}\n\n.l-header .title-bloc {\n	line-height: normal;\n	vertical-align: middle;\n	display: inline-block;\n}\n\n\n.l-menu {\n	background: #303040;\n	text-align: center;\n	height: 50px;\n	line-height: 50px;\n	border-bottom : 5px solid rgba(150,150,150,0.5);\n}\n\n.l-nav {\n	list-style-type: none;\n	list-style: none;\n	height: 50px;\n	text-align: center;\n	margin: 0 auto;\n	position : relative;\n}\n\n.l-nav .nav-item {\n	float : left;\n	padding : 0 20px;\n	background: #303040;\n	height: 100%;\n	text-align: center;\n	display: inline-block;\n	color: #EEE;\n}\n\n.l-nav .nav-item a {\n	text-decoration: none;\n	color: #EEE;\n}\n\n.l-nav .nav-item a:hover {\n	text-decoration: underline;\n}\n\n.l-nav::before {\n	content:'';\n	border-left: 66.66667px solid transparent;\n	border-right: 66.66667px solid transparent;\n	border-top: 50px solid rgba(150,150,150,0.5);\n	width: 0;\n	height: 0;\n\n	display: block;\n	\n	display: block;\n	position: absolute;\n	bottom: -55px;\n	left: 50%;\n	margin-left: -66px;\n	z-index: 1;\n}\n\n.l-nav::after {\n	content:'';\n	border-left: 66.66667px solid transparent;\n	border-right: 66.66667px solid transparent;\n	border-top: 50px solid #303040;\n	width: 0;\n	height: 0;\n\n	display: block;\n	\n	display: block;\n	position: absolute;\n	bottom: -50px;\n	left: 50%;\n	margin-left: -66px;\n	z-index: 2;\n}\n\n\n.l-container {\n	width: 900px;\n	margin: 0 auto;\n}\n\n\n.line {\n	width: 100%;\n	height: 300px;\n}\n\n.line .gallery-image {\n	background: #474756 url(\"/031.JPG\") no-repeat; ;\n	width: 100%;\n	height: 300px;\n}\n\n.line .gallery-image: over {\n	background: #505056; ;\n}\n\n.line .gallery-image img {\n	width: 100%;\n	height: 500px;\n}\n\n\n\n\n\n\n\n@media all and (max-width: 900px) {\n	.l-container {\n		width: 100%;\n	}	\n}",
 			"file": "styles/style.css",
-			"file_size": 1816,
-			"file_write_time": 1425649848000000,
 			"settings":
 			{
-				"buffer_size": 1756,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/base/_base.scss",
-			"settings":
-			{
-				"buffer_size": 61,
-				"line_ending": "Unix"
+				"buffer_size": 2242,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -61,14 +50,6 @@
 		"height": 392.0,
 		"selected_items":
 		[
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
 			[
 				"snip",
 				"Snippet: html"
@@ -130,12 +111,20 @@
 				"Set Syntax: SQL"
 			],
 			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
 				"sste",
 				"Set Syntax: Plain Text"
 			],
 			[
 				"ssxml",
 				"Set Syntax: XML"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
 			],
 			[
 				"ssjson",
@@ -306,7 +295,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 593.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -323,8 +312,8 @@
 	},
 	"file_history":
 	[
-		"/home/mcharton/projects/perso/yvon-francaux/static app/styles/style.css",
-		"/home/mcharton/projects/perso/yvon-francaux/static app/index.html",
+		"/C/wamp/www/sites/labo/_techno/sass/leveluptuts/2 - techniques/style.css",
+		"/C/wamp/www/sites/yvon-francaux/static app/styles/style.css",
 		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/HTML/html.sublime-snippet",
 		"/C/Users/mcharton/Desktop/Projets/eolane/ssis-2012-library/Fichiers/IN/Extraction Eolane/Infos_BDD.txt",
 		"/C/Users/mcharton/Desktop/Projets/eolane/ssis-2012-library/Doc/CHAMPS CSV, CRM, Explications.txt",
@@ -469,6 +458,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"</li",
+			":",
+			">I",
 			"RG",
 			"INT_",
 			"EntityR",
@@ -593,10 +585,7 @@
 			"action",
 			"xssis_company_temp_merged_update",
 			"xssis_company_merged",
-			"action",
-			"nvarchar",
-			"100",
-			"nvarchar"
+			"action"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -630,7 +619,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -638,83 +627,7 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1137,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "styles/style.css",
-					"settings":
-					{
-						"buffer_size": 1756,
+						"buffer_size": 1100,
 						"regions":
 						{
 						},
@@ -723,82 +636,6 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "styles/base/_base.scss",
-					"settings":
-					{
-						"buffer_size": 61,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
 							]
 						],
 						"settings":
@@ -852,11 +689,90 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles/style.css",
+					"settings":
+					{
+						"buffer_size": 2242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": true,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
