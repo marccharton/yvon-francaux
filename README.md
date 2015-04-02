@@ -21,6 +21,25 @@ www.yvon-francaux.com  ??
 **Pnotify**   pour la partie admin.  
 **Symfony**   pour le projet global. (Administration, orm, sécurité,k expérience, évolutivité)  
 
+# Internationalisation
+
+	var text = {}; 
+
+	text.fr = {
+		project : {
+			launch : "Lancer le projet",
+			kill : "Arrêter le projet"
+		},
+		lorem : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam impedit ad esse aspernatur. Soluta iure vel aperiam, in, laboriosam temporibus dolore saepe ducimus quisquam, eius similique eaque nemo officiis repellendus."
+	};
+
+	text.en = {
+		project : {
+			launch : "Launch project",
+			kill : "Kill the project"		
+		},
+		lorem : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequuntur optio incidunt laboriosam dicta placeat beatae nisi, commodi sunt quos, labore, hic alias earum provident ut architecto dolorem? Temporibus, enim?"
+	};
 
 # Informations Peintures
 
