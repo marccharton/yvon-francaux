@@ -1,5 +1,7 @@
 .sass-cache/
+libs/
+app/
+
 *.psd
 *.sublime-project
 *.sublime-workspace
-libs/
