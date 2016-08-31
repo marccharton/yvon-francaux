@@ -1,3 +1,11 @@
+On casse tout et on passe sur un wordpress : yvonfrancaux.wordpress.com
+
+
+---------
+# OLD
+
+
+
 # Idees
 
 * mise en place facebook, tweeter, ... ??  
